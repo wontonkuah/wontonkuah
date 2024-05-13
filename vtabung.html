@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Volume Tabung</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nafo Is Here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <ul>
+        <li><a href="jjgj.html">Luas Jajar Genjang</a></li>
+        <li><a href="kerucut.html">Volume Kerucut</a></li>
+        <li><a href="lingkaran.html">Keliling dan Luas Lingkaran</a></li>
+		<li><a href="segitiga.html">Luas Segitiga</a></li>
+		<li><a href="vtabung.html">Volume Tabung</a></li>
+        <li class="dropdown">
+    </ul>
+            </div>
+        </li>
+    </ul>
+</body>
+<center><br></br><br></br><br></br>
+<b><font color="black" size="5">
+<p>Volume Tabung</p>
+<form id="Formulir" name="formulir" method="post" action="">
+                <table width="500" border="0">
+                <tr>
+                <td width="178"><b><font color="black" size="5">Masukan jari-jari</td>
+                <td><input name="jari" type="text" id="jari"></td>
+                </tr>
+                <tr>
+                <td width="178"><b><font color="black" size="5">Masukan tinggi</td>
+                <td><input name="tinggi" type="text" id="tinggi"></td>
+                </tr>
+                <tr>
+                <td><b><font color="black" size="5">Hasil Penghitungan volume</td>
+                <td><input name="volume" type="text" id="volume"></td>
+                </tr>
+</table>
+<p>
+<input name="cari" type="button" id="cari" value="hitung" class="btn"
+onclick="cariluas()"/>
+</p>
+</form>
+<p>&nbsp;</p>
+<script laguage="javascript">
+function cariluas()
+{
+jari=formulir.jari.value;
+jari=formulir.jari.value;
+tinggi=formulir.tinggi.value;
+formulir.volume.value=3.14*jari*jari*tinggi;
+}
+</script>
+</body></html>

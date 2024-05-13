@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Keliling dan Luas Lingkaran</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nafo Is Here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <ul>
+        <li><a href="jjgj.html">Luas Jajar Genjang</a></li>
+        <li><a href="kerucut.html">Volume Kerucut</a></li>
+        <li><a href="lingkaran.html">Keliling dan Luas Lingkaran</a></li>
+		<li><a href="segitiga.html">Luas Segitiga</a></li>
+		<li><a href="vtabung.html">Volume Tabung</a></li>
+        <li class="dropdown">
+    </ul>
+            </div>
+        </li>
+    </ul>
+</body>
+<body>
+<center><br></br><br></br><br></br>
+<b><font color="black" size="5">
+<p>Keliling dan Luas Lingkaran</p>
+<form id="Formulir" name="formulir" method="post" action="">
+                <table width="500" border="0">
+                <tr>
+                <td width="178"><b><font color="black" size="5">Masukan jari</td>
+                <td><input name="jari" type="text" id="jari"></td>
+                </tr>
+                <tr>
+                <td><b><font color="black" size="5">Hasil perhitungan keliling</td>
+                <td><input name="keliling" type="text" id="keliling"></td>
+                </tr>
+                <tr>
+                <td><b><font color="black" size="5">Hasil Penghitungan Luas</td>
+                <td><input name="luas" type="text" id="luas"></td>
+                </tr>
+</table>
+<p>
+<input name="cari" type="button" id="cari" value="hitung" class="btn"
+onclick="carikeliling()"/>
+</p>
+</form>
+<p>&nbsp;</p>
+<script laguage="javascript">
+function carikeliling()
+{
+jari=formulir.jari.value;
+formulir.keliling.value=2*3.14*jari;
+formulir.luas.value=3.14*jari*jari;
+}
+</script></body></html>
